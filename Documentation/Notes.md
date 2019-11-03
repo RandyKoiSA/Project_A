@@ -1,4 +1,5 @@
 # 10/23/2019
+## Dropper Component 
 "Dropper" component: Dropper component can be attached to any actor that has a chance to drop materials or equipment. Dropper equipment will be in charge of calculating how items to drop (each object) and how much each item is stacked with (each object has certain stack amount). Dropper component will have be responsible for spawning in the items as well and add an impulse to create more effects.
 
 ## Creating an enemy step
@@ -12,3 +13,6 @@ Create a dungeon based on level depth.
 Spawn harder enemies
 Spawn more rare rocks to mine
 Create a exit path
+
+# 11/03/2019
+## Interactive Object vs Item Object vs Data Object
