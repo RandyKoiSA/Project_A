@@ -16,6 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UNameCaller();
 
+	UPROPERTY(EditAnywhere)
+		int32 SizeOfInventory;
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
