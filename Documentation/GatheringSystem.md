@@ -26,26 +26,29 @@ __Item Info__: Item information data.
 # Item information (DATA)
 A `structure` that contains all the data that describes the item. This is our main data that will be passed around.
 * Data:
-  * Item name
-  * Item description
+  * Item name (TEXT)
+  * Item description (TEXT)
   * Item category (E_Item_Category)
-  * Item quantity
-  * Item maxStack
-  * Item icon
+  * Item quantity (INT)
+  * Item rarity (INT)
+  * Item maxStack (INT)
+  * Item icon (Texture 2D)
 
 ## Item Category Types (E_Item_Category)
 __NEEDS ATTENTION__
 * Material
 * Consumable
-* Equipment (E_Equipment_Category)
+* Equipment
 
 ## Equipment Category (E_Equipment_Category)
 __NEEDS ATTENTION__
 * Pickaxe
 * Axe
-* Weapon
+* Sword
+* GreatSword
 * Helm
 * Torso
 * Legging
 * Shield
+* Fishing Rod
 
