@@ -16,3 +16,26 @@ Create a exit path
 
 # 11/03/2019
 ## Interactive Object vs Item Object vs Data Object
+
+## Item Base > Material/Consumable/Equipment
+Item base is the parent class of 3 subclass:
+* Material Item Base
+* Consumable Item Base
+* Equipment Item Base
+
+Item base has the main functionality:
+* Implementation of picking up the item
+* The range you have to be in to pick up the item
+* THe Item Information (S_Item)
+
+### Material Item Base
+Will have additional functionality
+`EMPTY`
+
+### Consumable Item Base
+Will have additional functionality such as:
+`EMPTY`
+
+### Equipment Item Base
+Will have additional functionality such as
+* Equipment Category
