@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/Texture.h"
+#include "Engine/Texture2D.h"
 #include "ItemInfo.generated.h"
 
 UENUM(BlueprintType)
@@ -25,18 +27,4 @@ enum class EEquipment_Category : uint8
 	EQUIP_Legging				UMETA(DisplayName = "Legging"),
 	EQUIP_Shield				UMETA(DisplayName = "Shield"),
 	EQUIP_FishingRod			UMETA(DisplayName = "Fishing Rod")
-};
-
-USTRUCT(BlueprintType)
-struct FItemInfo
-{
-	GENERATED_BODY()
-
-	/* Always make USTRUCT variables into UPROPERTY()
-	any non-UPROPERTY() struct vars are not replicated */
-	FItemInfo();
-
-	UPROPERTY(EditAnywhere)
-	int32 Quantity;
-
 };

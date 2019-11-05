@@ -2,8 +2,3 @@
 
 
 #include "ItemInfo.h"
-
-FItemInfo::FItemInfo()
-{
-	Quantity = 0;
-}
