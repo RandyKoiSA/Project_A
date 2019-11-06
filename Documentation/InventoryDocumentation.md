@@ -1,6 +1,6 @@
 # Inventory Documentation
 Update: 11/03/2019
-Progress: Finished
+Progress: Not Finished
 Description: Working but no UI for visual representation
 
 Inventory will soon be a component that can be placed on player and stuff like chests.
@@ -96,4 +96,15 @@ def AddItem(inventory, pickupitem):
             inventory.add(pickupitem)
             return
         else
-            return 
+            return
+```
+# Things to Note
+When opening the inventory menu, make sure the inventory title is there.
+Chest - 12 slots
+Huge Chest - 24 slots
+Bigger Chest - 36 slots
+Gigantic Chest - 48 slots
+Players inventory - 60 slots
+
+Implementation of drag and drop. Which means that items slots can swap.
+Items can be drags out of screen and item will be removed from inventory and drops onto the grab.
