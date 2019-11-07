@@ -8,6 +8,7 @@ Inventory will soon be a component that can be placed on player and stuff like c
 # Adding item to inventory
 We must consider the inventory slot , the max stack count, and left over if they're still more
 
+## Iteration 1
 ```py
 # Check if there is enough inventory space to add
 if len(inventory) < inventoryMaxQuantity:
@@ -60,7 +61,7 @@ else:
 
 ```
 
-ITERATION 2
+# Iteartion 2
 ```py
 def AddItem(inventory, pickupitem):
     # Scan through existing inventory items for same item with enough space quantity
@@ -99,12 +100,12 @@ def AddItem(inventory, pickupitem):
             return
 ```
 # Things to Note
-When opening the inventory menu, make sure the inventory title is there.
-Chest - 12 slots
-Huge Chest - 24 slots
-Bigger Chest - 36 slots
-Gigantic Chest - 48 slots
-Players inventory - 60 slots
+When opening the inventory menu, make sure the inventory title is there. <br />
+Chest - 12 slots <br />
+Huge Chest - 24 slots <br />
+Bigger Chest - 36 slots <br />
+Gigantic Chest - 48 slots <br />
+Players inventory - 60 slots <br />
 
 Implementation of drag and drop. Which means that items slots can swap.
 Items can be drags out of screen and item will be removed from inventory and drops onto the grab.
